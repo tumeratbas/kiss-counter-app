@@ -1,0 +1,43 @@
+.kiss-counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e975b7; /* Pembe arka plan */
+  }
+  
+  .kiss-counter-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #a90858;
+  }
+  
+  .kiss-counter-text {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+  }
+  
+  .kiss-counter-button {
+    background-color: #f472b6; /* Açık pembe buton */
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .kiss-counter-button:hover {
+    background-color: #ec4899; /* Buton üzerine gelindiğinde renk değişimi */
+  }
+  
+  .kiss-counter-footer{
+    color: #a90858;
+    margin-top: 50px;
+  }
