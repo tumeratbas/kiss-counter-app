@@ -31,7 +31,7 @@ export default function KissCounter() {
         Bir Öpücük Daha!
       </button>
       <footer className="kiss-counter-footer">
-        -Made by Tümer ♡ with love
+        -Made by Tümer &hearts; with love
       </footer>
     </div>
   );
