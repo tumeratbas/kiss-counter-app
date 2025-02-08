@@ -22,7 +22,7 @@ export default function KissCounter() {
 
   return (
     <div className="kiss-counter-container">
-      <h1 className="kiss-counter-title">Nazlı&apos;nın Öpücük Sayacı</h1>
+      <h1 className="kiss-counter-title">Nazlışın Öpücük Sayacı</h1>
       <p className="kiss-counter-text">Toplam Öpücük: {count}</p>
       <button 
         onClick={increaseCount}
