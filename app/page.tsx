@@ -19,8 +19,18 @@ export default function KissCounter() {
       return newCount;
     });
 
-    // Butona tıklanınca YouTube linkini yeni sekmede aç
-    window.open("https://www.youtube.com/watch?v=4Gc1v8kh6MU", "_blank");
+    // %30 ihtimalle video aç
+    if (Math.random() < 0.3) { 
+      const videos = [
+        "https://www.youtube.com/watch?v=4Gc1v8kh6MU",
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "https://www.youtube.com/watch?v=S2jUTseB-Kw",
+        "https://www.youtube.com/watch?v=hucTaMDjgk0"
+      ];
+
+      const randomVideo = videos[Math.floor(Math.random() * videos.length)];
+      window.open(randomVideo, "_blank", "noopener,noreferrer");
+    }
   };
 
   return (
