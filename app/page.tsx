@@ -15,9 +15,12 @@ export default function KissCounter() {
   const increaseCount = () => {
     setCount(prev => {
       const newCount = prev + 1;
-      localStorage.setItem("kissCounter", newCount.toString()); // Sayıyı stringe çevir
+      localStorage.setItem("kissCounter", newCount.toString());
       return newCount;
     });
+
+    // Butona tıklanınca YouTube linkini yeni sekmede aç
+    window.open("https://www.youtube.com/watch?v=4Gc1v8kh6MU", "_blank");
   };
 
   return (
